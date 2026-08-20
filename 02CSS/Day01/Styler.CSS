@@ -1,0 +1,61 @@
+/* Tag Elements Selector */
+/* h1{
+    background-color: blue;
+}
+
+h2{
+    background-color: red;
+}
+
+ul{
+    background-color: pink;
+} */
+
+/* id base Sellection */
+
+/* #first{
+    background-color: red;
+}
+#second{
+    background-color: blue;
+} */
+
+/* class based Seliction */
+
+/* .fifth{
+    background-color: blueviolet;
+} */
+
+/* Group Based Selection */
+/* h1,#first,.fifth{
+    background-color: red;
+} */
+
+/* h1{
+    background-color: rgba(33, 194, 44, 0.687);
+} */
+
+/* h1{
+    background-color: hsla(152, 48%, 32%, 0.952);
+} */
+
+ /* h1 {
+    background-color: #0000ff;
+ } */
+
+ /* Fonts */
+
+ /* h1{
+    font-size: 50px;
+ }
+
+ ul{
+    font-size: 20px;
+ } */
+
+ h2{
+    font-family: "Epunda Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}

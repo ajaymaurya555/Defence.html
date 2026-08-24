@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+/* h1{
+    background-color: red;
+    position:static
+} */
+
+h1{
+    background-color:  lightpink;
+    position: relative;
+    left: 30px; 
+    /*top: 50px; */
+    /* bottom: 20px; */
+    /* right: 70px; */
+    z-index: 20;
+}
+h2{
+    background-color: orange;
+    position: fixed;
+    /* top: 0px; */
+    /* bottom: 0px; */
+    /* left: 0px; */
+    /* right: 0px; */
+    z-index: 10;
+}
+h3{
+    background-color: beige;
+    position:sticky; 
+    top: 0px; 
+    /* bottom: 1px; */
+    /* left: 0px; */
+    /* right: 0px; */
+    z-index: 15;
+}
+p{
+    background-color: brown;
+    position: absolute;
+    top: 0px;
+    z-index: 21;
+
+}

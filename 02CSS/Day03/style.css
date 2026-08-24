@@ -1,1 +1,14 @@
+h1{
+    background-color: brown;
+}
+#first{
+    background-color: blue;
+} 
 
+.style{
+    background-color: cadetblue;
+}
+
+h2{
+    background-color:pink !important;
+}

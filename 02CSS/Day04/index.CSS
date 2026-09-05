@@ -1,0 +1,65 @@
+.container{
+    background-color: antiquewhite;
+    height: 900px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    /* flex-direction: row-reverse; */
+    /* flex-direction:column; */
+    /* flex-direction: column-reverse; */
+    /* justify-content:flex-end;  */
+    /* justify-content:flex-start; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* Jaise Row ke liye sabhi proparty lagi 
+    hai same COLUMN par bhi lagega  */
+
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+    
+
+    
+
+
+
+}
+
+/* Justyfy-content :- Main Axix ke around kaam karta hai 
+Flex-drection Axix decide karta hai  ,align- items CROSS 
+axis ke around kaam karta hai*/
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    /* margin: 5px;
+    padding: 5px; */
+
+}
+.first{
+    background-color: chartreuse;
+    /* flex-grow: 1; */
+    /* align-self: flex-end; */
+    /* flex-shrink: 5; */
+    /* flex-basis: 200px; */
+    flex: 1 4 200px;
+
+
+
+}
+
+.second{
+    background-color: aqua;
+    /* flex-grow: 2; */
+}
+.third{
+    background-color: blueviolet;
+    /* flex-grow: 3; */
+}
+.fourth{
+    background-color: chocolate;
+    /* flex-grow: 4; */
+    
+}

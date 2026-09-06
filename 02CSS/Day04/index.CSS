@@ -44,7 +44,7 @@ axis ke around kaam karta hai*/
     /* align-self: flex-end; */
     /* flex-shrink: 5; */
     /* flex-basis: 200px; */
-    flex: 1 4 200px;
+    /* flex: 1 4 200px; tenno ek hi mein Grow shrink basis */
 
 
 

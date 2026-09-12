@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 20px;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 100px;
+
+}
+
+.first{
+
+    background-color: brown;
+    grid-row: 1/3;
+    
+}
+
+.second{
+    background-color: lightseagreen;
+    grid-column: 2/4;
+     
+}
+
+.third{
+    background-color:rgb(173, 152, 34);
+}
+
+.fourth{
+   background-color:rgb(173, 152, 34);
+}
+
+.fifth{
+    background-color: white;
+    
+}
+
+.six{
+    background-color: brown;
+    grid-row: 2/4;
+    grid-column: 4/5;
+   
+}
+
+.seven{
+    background-color: white;
+}
+
+.eight{
+    background-color: brown;
+    /* grid-column: 2/4; */
+}
+.nine{
+    background-color: lightseagreen;
+}

@@ -1,0 +1,46 @@
+
+
+.container{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    font-size: 50px;
+
+}
+
+/* DESKTOP APPROACH */
+
+/* @media screen and (max-width:900px){
+    .container{
+        background-color:yellow;
+        font-size: 50px;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        background-color: blueviolet;
+        font-size: 30px;
+    }
+    
+} */
+
+
+/* MOBILE APPROACH */
+    
+@media screen and (min-width:600px) {
+    .container{
+        background-color: red;
+        font-size: 24px;
+    }
+    
+}
+
+@media screen and (min-width:900px) {
+    .container{
+        background-color: green;
+        font-size: 24px;
+    }
+    
+}

@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+.container{
+    padding: 20px;
+    position: relative;
+}
+
+
+
+.box{
+    height: 200px;
+    width:300px ;
+    padding: 40px;
+    background-color: red;
+    animation-name: moving;
+    animation-duration: 5s;
+    
+    animation-iteration-count:infinite;
+    /* animation-timing-function: ease; */
+    /* animation-timing-function: ease-in; */
+    /* animation-timing-function: ease-out; */
+    /* animation-timing-function: ease-in-out; */
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-delay: 2s;
+    /* animation-fill-mode: forwards; */
+    position: absolute;
+}
+
+@keyframes moving {
+    /* from{
+        background-color: yellow;
+        top: 10px;
+        left: 10px;
+
+    }
+    to{
+        background-color: cadetblue;
+        top: 10px;
+        left: 1400px;
+
+
+    } */
+
+       0%{
+        background-color: yellow;
+        top: 10px;
+        left: 10px;
+
+    }
+    25%{
+        background-color: cadetblue;
+        top: 10px;
+        left: 1400px;
+
+
+    }
+       50%{
+        background-color: green;
+        top: 600px;
+        left: 1400px;
+
+
+    }
+       75%{
+        background-color:orange;
+        top: 600px;
+        left: 10px;
+
+
+    }
+       100%{
+        background-color: cadetblue;
+        top: 10px;
+        left: 10px;
+
+
+    }
+
+    
+
+}
